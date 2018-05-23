@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+
+.header {
+	position: absolute;
+	left: 100px;
+	right: 100px;
+	top: -1px;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px;
+}
+
+.header .header-info-block {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: rgba(240, 240, 240, 0.6);
+	padding: 10px;
+}
+.header h1 {
+	font: 200% serif;
+	display: inline-block;
+}
+
+.header a {
+	margin-right: 10px;
+	font: 200% serif;
+	text-decoration: none;
+	color: grey;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.outside-block {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding: 10px;
+	background: #FFE680;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre-inside-block {
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+}
+
+.inside-header-block {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: rgba(240, 240, 240, 0.6);
+	overflow: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.inside-header-block h1 {
+    font: 170% arial;
+}
+
+.inside-block {
+    height: 300px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 30px;
+	background-color: rgba(240, 240, 240, 0.6);
+	overflow: auto;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.inside-block h1 {
+	font: 200% arial;
+}
+
+.inside-block ul {
+    margin-left: 10px;
+    font: 150% arial;
+}
+
+.inside-block li {
+    margin-top: 10px;
+}
+
+.inside-block a {
+    text-decoration: none;
+}
+
+.inside-block a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.inside-block strong {
+    font-weight: bold;
+}
+

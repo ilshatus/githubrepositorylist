@@ -1,0 +1,22 @@
+server:
+  port: 80
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/github
+    username: user
+    password: 123
+
+
+github:
+  client:
+      clientId: 5b6ed1a1c7fa818c26f6
+      clientSecret: 8e420a296180ad93bcf73a8e0e01678e32698f87
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+  resource:
+      userInfoUri: https://api.github.com/user

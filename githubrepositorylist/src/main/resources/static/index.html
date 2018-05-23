@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Application</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="header-info-block">
+        <div class="unauthenticated">
+            <a href="/login/github">Login with github</a>
+        </div>
+        <div class="authenticated" style="display: none">
+            <h1>Hello,</h1>
+            <h1 id="user"></h1>
+            <a  href="#" id="logout" style="float:right">Logout</a>
+        </div>
+    </div>
+</div>
+
+<div class="outside-block authenticated" style="display: none">
+    <div class="pre-inside-block">
+        <div class="inside-header-block">
+            <h1>List of repositories</h1>
+        </div>
+        <div class="inside-block">
+            <ul id="repositories">
+            </ul>
+        </div>
+    </div>
+    <div class="pre-inside-block" style="float: right">
+        <div class="inside-header-block">
+            <h1>Login/Logout history</h1>
+        </div>
+        <div class="inside-block">
+            <ul id="history">
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
